@@ -1,0 +1,31 @@
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#categories .card img, 
+#shop .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#testimonials .card {
+    border: none;
+    background-color: transparent;
+}
+
+#testimonials .card-title {
+    font-weight: bold;
+    color: #333;
+}

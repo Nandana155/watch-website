@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Store</title>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WatchStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/hero1.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-3 font-weight-bold">Welcome to WatchStore</h1>
+                    <p class="lead">Discover the best watches in our exclusive collection.</p>
+                    <a href="#shop" class="btn btn-primary btn-lg">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/hero2.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-3 font-weight-bold">Luxury Watches for Every Occasion</h1>
+                    <p class="lead">Timeless elegance, impeccable craftsmanship.</p>
+                    <a href="#shop" class="btn btn-primary btn-lg">Explore Collection</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/hero3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-3 font-weight-bold">The Ultimate in Watchmaking</h1>
+                    <p class="lead">Experience the precision of our exclusive timepieces.</p>
+                    <a href="#shop" class="btn btn-primary btn-lg">Browse Now</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div id="categories" class="container my-5">
+        <h2 class="text-center my-5">Shop by Categories</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="images/category1.jpg" class="card-img-top" alt="Category 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="images/category2.jpg" class="card-img-top" alt="Category 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sports Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="images/category3.jpg" class="card-img-top" alt="Category 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Casual Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card text-center">
+                    <img src="images/category4.jpg" class="card-img-top" alt="Category 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card text-center">
+                    <img src="images/category5.jpg" class="card-img-top" alt="Category 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Kids Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card text-center">
+                    <img src="images/category6.jpg" class="card-img-top" alt="Category 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Bracelet Watches</h5>
+                        <a href="#" class="btn btn-outline-dark">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="shop" class="container">
+        <h2 class="text-center my-5">Featured Watches</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/watch1.jpg" class="card-img-top" alt="Watch 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Leather Watch</h5>
+                        <p class="card-text">$299</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/watch2.jpg" class="card-img-top" alt="Watch 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Steel Watch</h5>
+                        <p class="card-text">$399</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/watch3.jpg" class="card-img-top" alt="Watch 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Gold Watch</h5>
+                        <p class="card-text">$999</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch4.jpg" class="card-img-top" alt="Watch 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Fastrack</h5>
+                        <p class="card-text">$499</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch5.jpg" class="card-img-top" alt="Watch 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Matrix</h5>
+                        <p class="card-text">$699</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch6.jpg" class="card-img-top" alt="Watch 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Casio</h5>
+                        <p class="card-text">$1199</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch7.jpg" class="card-img-top" alt="Watch 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorenz</h5>
+                        <p class="card-text">$1499</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch8.jpg" class="card-img-top" alt="Watch 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Tommy Hilfige</h5>
+                        <p class="card-text">$8999</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch9.jpg" class="card-img-top" alt="Watch 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Seik</h5>
+                        <p class="card-text">$7699</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch10.jpg" class="card-img-top" alt="Watch 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Nibosi</h5>
+                        <p class="card-text">$10000</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch11.jpg" class="card-img-top" alt="Watch 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Victorinox</h5>
+                        <p class="card-text">$11000</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 my-2">
+                <div class="card">
+                    <img src="images/watch12.jpg" class="card-img-top" alt="Watch 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniel Klein</h5>
+                        <p class="card-text">$999</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reviews" class="container my-5">
+        <h2 class="text-center my-5">Customer Reviews</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Anna</h5>
+                        <p class="card-text">"Amazing collection of watches! I bought a classic leather watch, and it's fantastic."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Smith</h5>
+                        <p class="card-text">"Great customer service and fast delivery. Will definitely buy again."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Johnson</h5>
+                        <p class="card-text">"The modern steel watch I purchased is both stylish and durable. Highly recommended!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container my-5">
+        <h2 class="text-center my-5">Contact Us</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 WatchStore. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                const href = this.getAttribute('href');
+
+                // Hide all sections by default
+                document.getElementById('heroCarousel').style.display = 'none';
+                document.getElementById('shop').style.display = 'none';
+                document.getElementById('categories').style.display = 'none';
+                document.getElementById('reviews').style.display = 'none';
+                document.getElementById('contact').style.display = 'none';
+
+                // Show the relevant section based on the link clicked
+                switch (href) {
+                    case '#':
+                        document.getElementById('heroCarousel').style.display = 'block';
+                        document.getElementById('shop').style.display = 'block';
+                        document.getElementById('categories').style.display = 'block';
+                        document.getElementById('reviews').style.display = 'block';
+                        document.getElementById('contact').style.display = 'block';
+                        break;
+                    case '#shop':
+                        document.getElementById('shop').style.display = 'block';
+                        break;
+                    case '#categories':
+                        document.getElementById('categories').style.display = 'block';
+                        break;
+                    case '#testimonials':
+                        document.getElementById('reviews').style.display = 'block';
+                        break;
+                    case '#contact':
+                        document.getElementById('contact').style.display = 'block';
+                        break;
+                }
+
+                // Smooth scroll to the section
+                document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+                event.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
